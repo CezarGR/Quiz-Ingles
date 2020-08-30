@@ -1,0 +1,111 @@
+body{
+    background-color: #1a4f63;
+}
+#log{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: #31b3ad;
+    z-index: 1;
+}
+#log2{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: rgb(49 36 23);
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} 
+
+@keyframes myAnimation{
+    0%{
+       background-color: #e0c6c6;
+       width: 500px;
+       height: 500px;
+    }
+    50%{
+    background-color: #e6e2e2;
+    width: 600px;
+    height: 600px;
+    }
+}
+
+h1{
+    color: #312417;
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    font-size: xxx-large;
+    animation-name: myAnimationH1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimationH1{
+    0%{
+        color: #e0c6c6;
+    }
+    50%{
+        color: #e6e2e2;
+    }
+    
+}
+button{
+    width: 215px;
+    position: absolute;
+    top: 236px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border: none;
+    background: #1a4f63;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px 0px #0707079e, 0 0px 1px black;
+    animation-name: myAnimationShadow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myAnimationShadow{
+    0%{
+        box-shadow: 5px 5px 2px 0px #07070780, 0 0px 1px black;
+    }
+    50%{
+        box-shadow: 5px 5px 2px 0px #07070770, 0 0px 1px black;
+    }
+}
+
+h2{
+    position: absolute;
+    top: 483px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: x-small;
+    font-family: monospace;
+    color: aliceblue;
+}
+

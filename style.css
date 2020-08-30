@@ -1,0 +1,374 @@
+body{
+    /* background-image: url("../img/teste1.jpg"); */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #1a4f63;
+}
+#mainP{
+    width: 150vh;
+    height: 1000vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-color: #31b3ad;
+    box-shadow: 0px 12px 9px 6px #3124178f, 0 0px 1px black;
+}
+#bar{
+    height: 40px;
+    width: 1000vh;
+    position: fixed;
+    z-index: 4;
+    top: -1px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: #e6e2e2;
+    box-shadow: 0px 4px 11px 0px #312417, 0 0px 1px black;
+    background-image: url(home.png);
+}
+#home{
+    background-image: url(home.png);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -2px;
+    left: 23px;
+    right: 0px;
+    bottom: 0px;
+    /* margin: auto; */
+    background-size: 100%;
+
+}
+#caixa{
+    width: 657px;
+    height: 86px;
+    font-family: none;
+    background-color: #ffffff;
+    padding: 5px;
+    /* border-bottom: 4px solid #ff0000; */
+    /* outline: inset cadetblue; */
+    border: 5px solid #e6e2e2;
+    border-radius: 20px;
+    color: #595959;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* text-transform: uppercase; */
+    box-shadow: 4px 4px 1px 0px #0707079e, 0 0px 1px black;
+    z-index: 3;
+    
+}
+
+.ori1{
+    
+    position: absolute;
+    top: 275px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.ori2{
+   
+    position: absolute;
+    top: 1604px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.ori3{
+    
+    position: absolute;
+    top: 2987px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.ori4{
+ 
+    position: absolute;
+    top: 4408px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.ori5{
+    
+    position: absolute;
+    top: 5812px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+button{
+    width: 210px;
+    border: none;
+    background: #1a4f63;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-right: 3px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 2px 0px #0707079e, 0 0px 1px black;
+}
+button:hover{
+    background: #1a4f63b0;
+    transition-duration: 1s;
+}
+.pergunta1{
+    width: 435px;
+    height: 296px;
+    position: absolute;
+    top: 668px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.pergunta2{
+    width: 435px;
+    height: 296px;
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.pergunta3{
+    width: 435px;
+    height: 296px;
+    position: absolute;
+    top: 3381px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.pergunta4{
+    width: 435px;
+    height: 296px;
+    position: absolute;
+    top: 4806px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.pergunta5{
+    width: 435px;
+    height: 296px;
+    position: absolute;
+    top: 6207px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+#img1{
+    background-image: url(samsung.png);
+    width: 600px;
+    height: 274px;
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 0px;
+    right: 0px;
+    bottom: 140px;
+    margin: auto;
+    background-size: 100%;
+   
+    border: 5px solid #ddd;
+    box-shadow: 8px 8px 1px 0px #0707079e, 0 0px 1px black;
+}
+#img2{
+    background-image: url(lg.png);
+    width: 600px;
+    height: 276px;
+    position: absolute;
+    z-index: 3;
+    top: 1219px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-size: 100%;
+
+    border: 5px solid #ddd;
+    box-shadow: 8px 8px 1px 0px #0707079e, 0 0px 1px black;
+
+}
+#img3{
+    background-image: url(nokia.jpg);
+    width: 600px;
+    height: 302px;
+    position: absolute;
+    z-index: 3;
+    top: 2579px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-size: 100%;
+
+    border: 5px solid #ddd;
+    box-shadow: 8px 8px 1px 0px #0707079e, 0 0px 1px black;
+}
+#img4{
+    background-image: url(apple.png);
+    width: 600px;
+    height: 302px;
+    position: absolute;
+    z-index: 3;
+    top: 4000px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-size: 100%;
+    border: 5px solid #ddd;
+    box-shadow: 8px 8px 1px 0px #0707079e, 0 0px 1px black;
+}
+#img5{
+    background-image: url(sony.png);
+    width: 600px;
+    height: 302px;
+    position: absolute;
+    z-index: 3;
+    top: 5402px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    background-size: 100%;
+    border: 5px solid #ddd;
+    box-shadow: 8px 8px 1px 0px #0707079e, 0 0px 1px black;
+}
+a{
+    text-decoration: solid;
+    transition-duration: 0.1s;
+    animation-duration: 3s;
+    
+}
+#ponto{
+    width: 0px;
+    height: 0x;
+    position: absolute;
+    z-index: 3;
+    top: 5790px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 0px;
+}
+@keyframes myAnimationShadow{
+    0%{
+        box-shadow: 5px 5px 2px 0px #07070780, 0 0px 1px black;
+    }
+    50%{
+        box-shadow: 5px 5px 2px 0px #07070770, 0 0px 1px black;
+    }
+}
+#mensagem{
+    color: rgb(255, 255, 255);
+    font-size: 450%;
+    font-family: fantasy;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -31px;
+}
+#resultado{
+    color: rgb(255, 255, 255);
+    font-size: 548%;
+    font-family: fantasy;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -69px;
+}
+#mensagem2{
+    color:rgb(255, 255, 255);
+    font-size: 190%;
+    font-family: fantasy;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: -113px;
+}
+
+#jn{
+    width: 0px;
+    border: none;
+    background: blueviolet;
+    border-radius: 5px;
+    padding: 0px;
+    position: absolute;
+    
+    top: 361px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+
+    color: aqua;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#confete{
+    background-image: url(confetti.gif);
+    background-size: 15%;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 5790px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    z-index: 2;
+}
+#h2{
+    color: #312417;
+    position: absolute;
+ 
+    height: 213px;
+    top: -345px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+
+    font-family: cursive;
+  
+    animation-name: myAnimationH1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+}
+@keyframes myAnimationH1{
+    0%{
+        color: #e0c6c6;
+    }
+    50%{
+        color: #e6e2e2;
+    }
+   
+    
+}
+

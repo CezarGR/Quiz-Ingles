@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Quiz Inglês</title>
+        <link rel="stylesheet" href="style.css">
+     
+       
+    </head>
+
+    <body> 
+        
+      
+        <div id="bar">
+            <a href="index.html">
+                <img id="home">
+            </a>  
+        </div>
+        <div id="confete"></div>
+
+        <main id="mainP">
+            <div id="h2">
+             <h2>Not everything is true</h2>
+            </div>
+
+            <div id="img1"></div>
+            <div id="caixa" class="ori1">
+                <p>Founded in 1946 by Masaru Ibuka and Akio Morita (25) under the name Tōkyō Tsūshin Kōgyō. This company was the first to manufacture a cassette recorder in Japan</p>
+            </div>
+
+            <div class="pergunta1">
+                <a href=#img2>
+                    <button  type="button" id="rest111" >Samsung</button>
+                    <button type="button" id="rest1">LG</button>
+                    <button type="button" id="rest11">Nokia</button>
+                    <button type="button" id="xs">Sony</button>   
+                </a>
+            </div>
+
+            <div id="img2"></div>
+            <div id="caixa" class="ori2">
+                <p>One of the largest electronic equipment and software companies in the world, it was founded in 1976, founded by students Steve Jobs and Steve Wozniak.
+                </p>        
+            </div>
+
+            <div class="pergunta2">
+                <a href=#img3 >
+                <button type="button" id="rest2">Samsung</button>
+                <button type="button" id="xa">Apple</button>
+                <button type="button" id="rest22">Dell</button>
+                <button type="button" id="rest222">Intel</button>   
+                </a>
+            </div>
+
+            <div id="img3"></div>
+            <div id="caixa" class="ori3">
+                <p>It reached its peak at the beginning of the cell phone era, it was part of Microsoft's plans that did not work out very well and is now betting on a triumphant return more focused on its roots.</p>
+            </div>
+
+            <div class="pergunta3">
+                <a href=#img4>
+                <button type="button" id="rest3">Semp Toshiba</button>
+                <button type="button" id="rest33">LG</button>
+                <button type="button" id="nok">Nokia</button>
+                <button type="button" id="rest333">Motorola</button>   
+                </a>
+            </div>
+
+            <div id="img4"></div>
+            <div id="caixa" class="ori4">
+                <p>It was born in South Korea in 1938. Founded by Byung Chull Lee, the company's 
+                    main function at the time was to export food to China</p>
+            </div>
+
+            <div class="pergunta4">
+                <a href=#img5>
+                <button type="button" id="rest4">Apple</button>
+                <button type="button" id="rest44">LG</button>
+                <button type="button" id="rest444">Nokia</button>
+                <button type="button" id="samsung">Samsung</button>   
+                </a>
+            </div>
+
+            <div id="img5"></div>
+            <div id="caixa" class="ori5">
+                <p>The company produces electronics, cell phones and petrochemical products, energy, machinery, metals, finance and services.</p>
+            </div>
+
+            <div class="pergunta5">
+                <a>
+                <button type="button" id="rest5">Panasonic</button>
+                <button type="button" id="rest55">Electrolux</button>
+                <button type="button" id="rest555">Sony</button>
+                <button type="button" id="teste">LG</button>   
+                </a>
+            </div>
+           
+            
+            <script>
+                
+                var contador =0;
+                var xs= document.getElementById("xs");
+                var rest1= document.getElementById("rest1");
+                var rest11= document.getElementById("rest11");
+                var rest111= document.getElementById("rest111");
+
+                xs.onclick = function(){
+                    xs.style.backgroundColor='#2bff00';
+                    contador ++;
+                }                          
+                rest1.onclick = function(){
+                    rest1.style.backgroundColor='#ff2525';
+                }
+                rest11.onclick = function(){
+                    rest11.style.backgroundColor='#ff2525';
+                }
+                rest111.onclick = function(){   
+                    rest111.style.backgroundColor='#ff2525';
+                }
+//------------------------------------2222----------------------------------------------------------//
+                var rest2= document.getElementById("rest2");
+                var xa= document.getElementById("xa");
+                var rest22= document.getElementById("rest22");
+                var rest222= document.getElementById("rest222");
+
+                xa.onclick = function(){
+                    xa.style.backgroundColor='#2bff00';
+                    contador ++;
+                }
+                rest2.onclick = function(){
+                    rest2.style.backgroundColor='#ff2525';
+                }
+                rest22.onclick = function(){
+                    rest22.style.backgroundColor='#ff2525';
+                }
+                rest222.onclick = function(){
+                    rest222.style.backgroundColor='#ff2525';
+                }
+//--------------------------------------3333-------------------------------------------------------------//
+                var rest3= document.getElementById("rest3");
+                var rest33= document.getElementById("rest33");
+                var nok= document.getElementById("nok");
+                var rest333= document.getElementById("rest333");
+
+                nok.onclick = function(){
+                    nok.style.backgroundColor='#2bff00';
+                    contador ++;
+                }                          
+                rest3.onclick = function(){
+                    rest3.style.backgroundColor='#ff2525';
+                }
+                rest33.onclick = function(){
+                    rest33.style.backgroundColor='#ff2525';
+                }
+                rest333.onclick = function(){   
+                    rest333.style.backgroundColor='#ff2525';
+                }
+//-------------------------------------4444--------------------------------------------------------------//
+                var rest4= document.getElementById("rest4");
+                var rest44= document.getElementById("rest44");
+                var rest444= document.getElementById("rest444");
+                var samsung= document.getElementById("samsung");
+
+                samsung.onclick = function(){
+                    samsung.style.backgroundColor='#2bff00';
+                    contador ++;
+                }                          
+                rest4.onclick = function(){
+                    rest4.style.backgroundColor='#ff2525';
+                }
+                rest44.onclick = function(){
+                    rest44.style.backgroundColor='#ff2525';
+                }
+                rest444.onclick = function(){   
+                    rest444.style.backgroundColor='#ff2525';
+                }
+//--------------------------------------5555----------------------------------------------------------------//
+                var rest5= document.getElementById("rest5");
+                var rest55= document.getElementById("rest55");
+                var rest555= document.getElementById("rest555");
+                var teste= document.getElementById("teste");
+
+                teste.onclick = function(){
+                    teste.style.backgroundColor='#2bff00';
+                    contador ++;
+                    resultado();
+                    
+                }                          
+                rest5.onclick = function(){
+                    rest5.style.backgroundColor='#ff2525';
+                    resultado();
+                }
+                rest55.onclick = function(){
+                    rest55.style.backgroundColor='#ff2525';
+                    resultado();
+                }
+                rest555.onclick = function(){   
+                    rest555.style.backgroundColor='#ff2525';
+                    resultado();
+                }
+
+               
+                function resultado(){
+                    var ponto = document.getElementById("ponto");
+                    ponto.style.width='500px';
+                    ponto.style.height='500px';
+                    ponto.style.background='#1a4f63';
+                    ponto.style.padding='10px';
+                    ponto.style.border='5px solid #0a2935';
+                    ponto.style.boxShadow='0px 12px 9px 6px #3124178f, 0 0px 1px black';
+                    jogarNovamente();
+                    mensagem();
+                    confete();
+
+                  
+                }
+                
+                function mensagem(){
+                    var soma = (100*contador)/5;
+                    var resultado = document.getElementById("resultado");
+                    var mensagem = document.getElementById('mensagem');
+                    var mensagem2 = document.getElementById('mensagem2');
+
+                    var texto = "You are right";
+
+                    document.getElementById('mensagem').innerHTML = texto;
+                    document.getElementById("resultado").innerHTML = soma+"%";
+                    document.getElementById('mensagem2').innerHTML = contador+" / 5";
+                    
+                    
+                }
+
+                function jogarNovamente(){
+                    var jn = document.getElementById("jn");
+                    jn.style.width='150px';
+                    jn.style.height='50px';
+                    jn.style.padding='0px';
+                    jn.style.marginTop='0px'; 
+                    jn.style.background='#31b3ad';
+                    jn.style.color='#ffffff';
+                    jn.style.boxShadow='5px 5px 2px 0px #0707079e, 0 0px 1px black';
+                    jn.style.animationName='myAnimationShadow';
+                    jn.style.animationDuration='1s';
+                    jn.style.animationIterationCount='infinite';
+                    document.getElementById("jn").innerHTML = ("play again");
+                }
+
+                function confete(){
+                    var confete = document.getElementById("confete");
+                    confete.style.width='1300px';
+                    confete.style.height='1000px';
+                }
+      
+
+
+            </script>
+
+         
+
+            <div id="ponto">
+                <h1 id="mensagem"></h1>
+                <h2 id="resultado"></h2>
+                <h2 id="mensagem2"></h2>
+                <a href="index.html">
+                    <button id="jn"></button>
+                </a>
+            </div>
+            
+
+        </main>
+    </body>
+</html>
